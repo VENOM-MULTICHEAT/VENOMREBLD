@@ -1,0 +1,1265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="plugin.cpp" />
+    <ClCompile Include="d3dhook.cpp">
+      <Filter>Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp" />
+    <ClCompile Include="Internet.cpp" />
+    <ClCompile Include="game_sa\C3DMarkerSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\C3DMarkersSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAERadioTrackManagerSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlendAssocGroupSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlendAssociationSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlendHierarchySA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlendSequenceSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlendStaticAssociationSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlockSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimManagerSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAudioSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAutomobileSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CBikeSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CBmxSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CBoatSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CBuildingSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCameraSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCamSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCarEnterExitSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCarGeneratorSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCheckpointSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCheckpointsSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCivilianPedSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CClockSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CColModelSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CColPointSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CControllerConfigManagerSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCoronasSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CDamageManagerSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CDoorSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEntitySA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEventDamageSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEventGroupSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEventGunShotSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEventListSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEventSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CExplosionManagerSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CExplosionSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CFireManagerSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CFireSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CFontSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CFxSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CGameSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CGarageSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CGaragesSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CHandlingEntrySA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CHandlingManagerSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CHudSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CKeyGenSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CMarkerSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CMenuManagerSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CModelInfoSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CMonsterTruckSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CObjectSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\COffsets.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPadSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CParticleObjectSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CParticleSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CParticleSystemManagerSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPathFindSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedDamageResponseCalculatorSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedDamageResponseSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedIKSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedIntelligenceSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedModelInfoSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedSoundSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPhysicalSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPickupSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPickupsSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPlaneSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPlayerInfoSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPlayerPedSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPoolsSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPopulationSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CProjectileInfoSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CProjectileSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CQuadBikeSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRadarSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRegisteredCoronaSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRemoteSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRenderWareSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRestartSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRopesSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CSettingsSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CStatsSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CStreamingSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTaskManagementSystemSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTaskManagerSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTasksSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTextSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTheCarGeneratorsSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTrailerSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CVehicleSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CVehicleScannerSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CVisibilityPluginsSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWantedSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWaterManagerSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWaterSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWeaponInfoSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWeaponSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWeatherSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWorldSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\HeapTrace.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\HookSystem.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\StdInc.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskAttackSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskBasicSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskCarAccessoriesSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskCarSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskGoToSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskIKSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskJumpFallSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskNamesSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskPhysicalResponseSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskSA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskSecondarySA.cpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="sparsehash\windows\port.cc">
+      <Filter>GTA\sparsehash\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa.cpp">
+      <Filter>GTA</Filter>
+    </ClCompile>
+    <ClCompile Include="math_stuff.cpp">
+      <Filter>GTA</Filter>
+    </ClCompile>
+    <ClCompile Include="samp.cpp">
+      <Filter>SAMP</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\DarkStyle.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="HookedRakClient.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="BitStream.cpp">
+      <Filter>SAMP</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plugin.h" />
+    <ClInclude Include="samp.h">
+      <Filter>SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\C3DMarkerSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\C3DMarkersSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAERadioTrackManagerSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlendAssocGroupSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlendAssociationSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlendHierarchySA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlendSequenceSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlendStaticAssociationSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlockSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimManagerSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAudioSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAutomobileSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CBikeSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CBmxSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CBoatSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CBuildingSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCameraSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCamSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCarEnterExitSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCarGeneratorSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCheckpointSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCheckpointsSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCivilianPedSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CClockSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CColModelSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CColPointSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CControllerConfigManagerSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCoronasSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CDamageManagerSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CDoorSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEntitySA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEventDamageSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEventGroupSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEventGunShotSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEventListSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEventSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CExplosionManagerSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CExplosionSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CFireManagerSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CFireSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CFontSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CFxSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CGameSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CGarageSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CGaragesSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CHandlingEntrySA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CHandlingManagerSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CHudSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CKeyGenSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMarkerSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMatrix.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMatrix_Pad.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMatrix4.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMenuManagerSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CModelInfoSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMonsterTruckSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CObjectSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\COffsets.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\Common.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPadSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CParticleObjectSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CParticleSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CParticleSystemManagerSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPathFindSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedDamageResponseCalculatorSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedDamageResponseSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedIKSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedIntelligenceSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedModelInfoSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedSoundSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPhysicalSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPickupSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPickupsSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPlaneSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPlayerInfoSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPlayerPedSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPoolsSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPopulationSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CProjectileInfoSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CProjectileSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CQuadBikeSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CQuat.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRadarSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRect2D.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRegisteredCoronaSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRemoteSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRenderWareSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRestartSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRopesSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CSettingsSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CStatsSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CStreamingSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTaskManagementSystemSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTaskManagerSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTasksSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTextSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTheCarGeneratorsSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTrailerSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CVector.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CVector2D.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CVehicleSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CVehicleScannerSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CVisibilityPluginsSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWantedSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWaterManagerSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWaterSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWeaponInfoSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWeaponSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWeatherSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWorldSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\gamesa_renderware.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\HeapTrace.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\HookSystem.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\SharedUtil.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\SharedUtil.hpp">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\SString.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\StdInc.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskAttackSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskBasicSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskCarAccessoriesSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskCarSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskGoToSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskIKSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskJumpFallSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskNamesSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskPhysicalResponseSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskSA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskSecondarySA.h">
+      <Filter>GTA\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\C3DMarker.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\C3DMarkers.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAERadioTrackManager.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlendAssocGroup.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlendAssociation.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlendHierarchy.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlendSequence.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlendStaticAssociation.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlock.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimManager.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAudio.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAutomobile.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CBike.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CBmx.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CBoat.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CBuilding.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCam.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCamera.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCarEnterExit.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCarGenerator.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCheckpoint.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCheckpoints.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCivilianPed.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CClock.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CColModel.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CColPoint.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CControllerConfigManager.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCoronas.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CDamageManager.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CDoor.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEntity.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEvent.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEventDamage.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEventGroup.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEventGunShot.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEventList.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CExplosion.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CExplosionManager.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CFire.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CFireManager.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CFont.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CFx.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CGame.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CGarage.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CGarages.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CHandlingEntry.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CHandlingManager.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CHud.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CKeyGen.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CMarker.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CMenuManager.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CModelInfo.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CMonsterTruck.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CObject.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\Common.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPad.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CParticle.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CParticleObject.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CParticleSystemManager.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPathFind.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPed.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedDamageResponse.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedDamageResponseCalculator.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedIK.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedIntelligence.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedModelInfo.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedSound.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPhysical.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPickup.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPickups.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPlane.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPlayerInfo.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPlayerPed.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPools.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPopulation.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CProjectile.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CProjectileInfo.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CQuadBike.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRadar.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRegisteredCorona.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRemote.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRenderWare.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRestart.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRopes.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CSettings.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CStats.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CStreaming.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CTaskManagementSystem.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CTaskManager.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CTasks.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CText.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CTheCarGenerators.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CTrailer.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CVehicle.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CVehicleScanner.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CVisibilityPlugins.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWanted.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWater.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWaterManager.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWeapon.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWeaponInfo.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWeather.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWorld.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\RenderWare.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\Task.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskAttack.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskBasic.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskCar.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskCarAccessories.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskGoTo.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskIK.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskJumpFall.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskPhysicalResponse.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskSecondary.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskTypes.h">
+      <Filter>GTA\game</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\dense_hash_map.h">
+      <Filter>GTA\sparsehash\google</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\dense_hash_set.h">
+      <Filter>GTA\sparsehash\google</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\sparse_hash_map.h">
+      <Filter>GTA\sparsehash\google</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\sparse_hash_set.h">
+      <Filter>GTA\sparsehash\google</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\sparsetable.h">
+      <Filter>GTA\sparsehash\google</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\type_traits.h">
+      <Filter>GTA\sparsehash\google</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\sparsehash\densehashtable.h">
+      <Filter>GTA\sparsehash\google\sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\google\sparsehash\sparsehashtable.h">
+      <Filter>GTA\sparsehash\google\sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\windows\config.h">
+      <Filter>GTA\sparsehash\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\windows\port.h">
+      <Filter>GTA\sparsehash\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsehash\windows\google\sparsehash\sparseconfig.h">
+      <Filter>GTA\sparsehash\windows\google\sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa.h">
+      <Filter>GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="math_stuff.h">
+      <Filter>GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\DarkStyle.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="HookedRakClient.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="RakClient.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="BitStream.h">
+      <Filter>SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Direct3D9">
+      <UniqueIdentifier>{c4a52f3e-6c93-4075-8b26-23677830b6d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAMP">
+      <UniqueIdentifier>{8f358cdc-effe-4269-9010-fdd7736023eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTA">
+      <UniqueIdentifier>{7bff6bde-6874-447d-8ffe-86dc0347ee38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTA\game_sa">
+      <UniqueIdentifier>{d4ce32f0-a726-4dd1-8a0d-c70597f00551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTA\game">
+      <UniqueIdentifier>{1216a88f-02ca-4493-9408-eb384650140c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTA\sparsehash">
+      <UniqueIdentifier>{fbfcddab-3769-4d4c-b772-b41837437537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTA\sparsehash\google">
+      <UniqueIdentifier>{25d53426-b4fa-4cf2-96d6-212a9fe551c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTA\sparsehash\google\sparsehash">
+      <UniqueIdentifier>{55fd2a7c-93b9-492c-867c-61c679f2edbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTA\sparsehash\windows">
+      <UniqueIdentifier>{efc8d948-3c99-4b41-8a01-61113f7736ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTA\sparsehash\windows\google">
+      <UniqueIdentifier>{68812adf-88c2-4628-b7fe-905dcf07788e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTA\sparsehash\windows\google\sparsehash">
+      <UniqueIdentifier>{d790f207-0dcd-496c-a21d-07847b3cbdbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{70126ba2-6e3f-4beb-af7d-2ee62ad32c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAMP\RakNet">
+      <UniqueIdentifier>{2a6eab75-034b-41ab-ac4c-018f3d6f5134}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
